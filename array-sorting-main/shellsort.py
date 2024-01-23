@@ -1,13 +1,5 @@
-#!/bin/bash/env python
-# coding=UTF-8
-# by Tarcisio marinho
-# github.com/tarcisio-marinho
+ #O(n)  O((n log(n)) ^ 2)  O((n log(n)) ^ 2)
 
-''' BIG O
-melhor caso - O(n)
-caso comum - O((n log(n)) ^ 2)
-pior caso - O((n log(n)) ^ 2)
-'''
 
 def shell_sort(lista, n, inc, num):
     num-=1
