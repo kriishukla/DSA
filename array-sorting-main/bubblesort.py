@@ -1,13 +1,8 @@
-#!/bin/bash/env python
-# coding=UTF-8
-# by Tarcisio marinho
-# github.com/tarcisio-marinho
 
-''' BIG O
-melhor caso - O(n)
-caso comum - O(n^2)
-pior caso - O(n^2)
-'''
+
+
+#O(n) O(n^2) O(n^2)
+
 
 def bubble_sort(lista, n):
     i = 0
