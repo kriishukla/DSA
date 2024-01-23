@@ -1,13 +1,4 @@
-#!/bin/bash/env python
-# coding=UTF-8
-# by Tarcisio marinho
-# github.com/tarcisio-marinho
-
-''' BIG O
-melhor caso - O(n log(n))
-caso comum - O(n log(n))
-pior caso - O(n log(n))
-'''
+# nlogn all cases
 
 def merge_sort(obj):
     if len(obj) > 1:
