@@ -1,15 +1,5 @@
-#!/bin/bash/env python
-# coding=UTF-8
-# by Tarcisio marinho
-# github.com/tarcisio-marinho
+# O(n)  O(n log(n)) O(n log(n))
 
-# based on insertion sort and merge sort
-
-''' BIG O
-melhor caso - O(n)
-caso comum - O(n log(n))
-pior caso - O(n log(n))
-'''
 
 def insertion_sort(lista, esq, dir):
     i = esq + 1
