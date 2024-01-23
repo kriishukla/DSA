@@ -1,13 +1,5 @@
-#!/bin/bash/env python
-# coding=UTF-8
-# by Tarcisio marinho
-# github.com/tarcisio-marinho
+# O(n) O(n^2) O(n^2)
 
-''' BIG O
-melhor caso - O(n)
-caso comum - O(n^2)
-pior caso - O(n^2)
-'''
 
 def insertion_sort(lista, n):
     p = 1
