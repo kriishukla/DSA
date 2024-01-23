@@ -1,13 +1,5 @@
-#!/bin/bash/env python
-# coding=UTF-8
-# by Tarcisio marinho
-# github.com/tarcisio-marinho
+#O(n log(n)) O(n log(n)) O(n^2)
 
-''' BIG O
-melhor caso - O(n log(n))
-caso comum - O(n log(n))
-pior caso - O(n^2)
-'''
 
 def partition(lista, esq, dir, pivot):
     while(esq <= dir):
